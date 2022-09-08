@@ -1,0 +1,43 @@
+// app global css in SCSS form
+
+// RESPONSIVE ADAPTATIVE
+// Small devices (landscape phones, 576px and up)
+.rmob {
+  display: inline;
+}
+.rtab {
+  display: none;
+}
+.rdes {
+  display: none;
+}
+// END Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) {
+  // Medium devices (tablets, 768px and up)
+  .rmob {
+    display: none;
+  }
+  .rtab {
+    display: inline;
+  }
+  .rdes {
+    display: none;
+  }
+  // END Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    // Large devices (desktops, 992px and up)
+    .rmob {
+      display: none;
+    }
+    .rtab {
+      display: none;
+    }
+    .rdes {
+      display: inline;
+    }
+    // END Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+    }
+  }
+}
